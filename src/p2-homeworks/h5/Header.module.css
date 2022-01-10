@@ -1,0 +1,48 @@
+
+.link {
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+}
+
+.active {
+    color: white;
+}
+
+.slide {
+    background-color: royalblue;
+    border: solid #777;
+    border-width: 2px 2px 2px 0;
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+    margin: 16px 0 0 -220px;
+    text-align: center;
+    width: 250px;
+    -moz-transition: margin 1s;
+    -o-transition: margin 1s;
+    -webkit-transition: margin 1s;
+    transition: margin 1s;
+}
+
+.slide:hover {
+    margin-left: 0;
+}
+
+.slide .slideContent {
+    float: left;
+    width: 220px;
+}
+
+.slide .slideHeader {
+    float: left;
+    width: 30px;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+.slide:hover .slideHeader {
+    opacity: 0;
+}

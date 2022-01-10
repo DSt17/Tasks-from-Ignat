@@ -1,0 +1,44 @@
+.someClass {
+    background-color: cornsilk;
+    display: flex;
+    justify-content: space-between;
+    width: 420px;
+}
+
+.someClass div {
+    width: 100px;
+}
+
+.item {
+    margin: auto;
+}
+
+.activeButton {
+    background-color: royalblue;
+    color: white;
+}
+
+.deleteButton {
+    background-color: royalblue;
+    color: white;
+    width: 50px;
+    margin-right: 0;
+}
+
+button {
+    width: 100px;
+    margin-right: 7px;
+}
+
+
+.high {
+    color: red;
+}
+
+.middle {
+    color: orange;
+}
+
+.low {
+    color: green;
+}
