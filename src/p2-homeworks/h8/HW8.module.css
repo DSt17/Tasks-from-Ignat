@@ -1,0 +1,11 @@
+
+.users {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-left: 20px;
+}
+
+.buttonBox {
+    width: 400px;
+}
